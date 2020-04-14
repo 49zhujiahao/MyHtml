@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>国内旅游</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
- <style>
+ <!-- <style>
      html{
-         background: white;
+         background: #f5f5f5;
      }
 
      body{
@@ -39,6 +40,7 @@
      }
 
      .title{
+         position:absolute
          font-size: 18px;
          font-weight: bolder;
          color: white;
@@ -52,13 +54,13 @@
      .bottom {
          position:absolute;
          top: 420px;
-         left: 380px;
+         left: 650px;
      }
 
      .face{
          float: left;
          border: 1px solid white;
-         border-radius: 50%
+         border-radius: 50%;
          width: 39px;
          height: 39px;
      }
@@ -75,8 +77,16 @@
          text-align: center;
          line-height: 35px;
      }
+     em{
+         font-style: normal;
+         font-weight: bolder;
+     }
 
- </style>
+     span{
+         margin-left: 30px;
+     }
+
+ </style> -->
 
 <body>
     <header class="qui-header">
@@ -90,15 +100,77 @@
 
         <div class="bottom">
            <p class="face">
-            <img src="images/touxiang.jpg" alt="" width="38" height="38" class="pic">
+                <img src="images/touxiang.jpg" alt="" width="38" height="38" class="pic">
            </p>
       
             <h2 class="title">我的旅游行程</h2>
         </div>
-      
+
+        <p class="dat">14天</p>
+        <div>
+           <em>
+             城市
+           </em>
+           <span>
+             昆明  -  香格里拉  -  西藏
+           </span>
+           
+        </div>
 
     </section>
+    <section class="plcRouteList">
+        <a href="#">
+            <img src="images/华东.jpg" alt="" width="635px">
+        </a>
 
-   
+        <div class="bottom">
+           <p class="face">
+                <img src="images/touxiang.jpg" alt="" width="38" height="38" class="pic">
+           </p>
+      
+            <h2 class="title">我的旅游行程</h2>
+        </div>
+
+        <p class="day">15天</p>
+        <div>
+           <em>
+             城市
+           </em>
+           <span>
+             北京  -  常州  -  苏州
+           </span>
+           
+        </div>
+
+    </section>
+    <footer class="qui-footer">
+        <span>
+        <a href="">手机版</a>
+        </span>
+        <span>
+        <a href="">电脑版</a> 
+        </span>
+        <span>
+        <a href="">APP</a>    
+        </span>     
+    </footer>
+
+    <aside class="qui-aside">
+        <nav class="nav-aside">
+            <ul>
+              <li><a href="">首页</a></li>
+              <li><a href="">目的地</a></li>
+              <li><a href="">酒店</a></li> 
+              <li><a href="">机票</a></li>
+              <li><a href="">时间</a></li>
+              <li><a href="">点评</a></li>
+            </ul>
+
+        </nav>
+      
+    </aside>
+
+
+
 </body>
 </html>
